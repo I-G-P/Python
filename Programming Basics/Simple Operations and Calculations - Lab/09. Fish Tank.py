@@ -1,0 +1,6 @@
+a = int(input())
+b = int(input())
+h = int(input())
+v = float(input())
+liters = (a * b * h * 0.001)*(1-(v*0.01))
+print(f"{liters:.3f}")
